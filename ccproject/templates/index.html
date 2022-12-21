@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Students</title>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+       
+    </head>
+
+    <body>
+
+    <h1>Add a student to the database</h1>
+
+    <form action="">
+        <div>
+            <label for="title">Add student</label>
+            <input type="text" placeholder="Add Student">
+            <button type="submit">Add</button>
+        </div>
+    </form>
+    <form action="/api/students/add" method="POST">
+        <div>
+        <label for="title">Add Student</label>
+        <p>uni <input type = "text/" name = "uni" /></p>
+        <p>last_name <input type = "text" name = "last_name" /></p>
+        <p>first_name <input type = "text" name = "first_name" /></p>
+        <p>email <input type = "text" name = "email" /></p>
+        <p><input type = "submit" value = "Submit" /></p>
+        </div>
+     </form>
+    
+
+   </body>
+</html>
